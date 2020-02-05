@@ -33,7 +33,7 @@ namespace Es_Strutture_Dati_4
             }
             if (state == true)
             {
-                Console.WriteLine("Il numero è contenuto nella lista");
+                Console.WriteLine("Il numero è contenuto nella lista" );
             }
             else
             {

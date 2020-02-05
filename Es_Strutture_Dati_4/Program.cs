@@ -17,7 +17,7 @@ namespace Es_Strutture_Dati_4
             using (StreamReader sr = new StreamReader("file.txt", Encoding.UTF8))
             {
                 string line;
-                while ((line = sr.ReadLine()) != null)
+                while ((line = sr.ReadLine()) != null )
                 {
                     lista.Add(double.Parse(line));
                 }
